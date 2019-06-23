@@ -47,7 +47,7 @@ export default class App extends React.Component {
         else {
             return  (
                 <Container>
-                    <Spinner color='red' />
+                    <Spinner style={{color: "#261514"}} />
                 </Container>
             )
         }
